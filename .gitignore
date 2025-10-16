@@ -1,41 +1,105 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# --- Build artifacts ---
 *.o
 *.obj
+*.lo
+*.slo
+*.la
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.i
+*.ii
+*.s
+*.su
 
-# Precompiled Headers
+# --- Precompiled headers ---
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
+# --- Debug and profiling files ---
+*.dSYM/
+*.ipch/
 *.pdb
+*.idb
+*.ncb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.stackdump
 
-# Compiled Dynamic libraries
+# --- Compiled static libraries ---
+*.a
+*.la
+*.lib
+
+# --- Compiled dynamic libraries ---
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# --- Executables and test outputs ---
 *.exe
 *.out
 *.app
+*.run
+bin/
+build/
+build-*/
+dist/
+Release/
+Debug/
+x64/
+x86/
+*.manifest
 
-# debug information files
-*.dwo
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+*.orig
+
+# --- IDE and editor files ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Visual Studio ---
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# --- CLion / JetBrains ---
+cmake-build-*/
+.clangd/
+.clang-tidy
+.clang-format
+
+# --- CMake ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# --- Conan package manager ---
+cona
